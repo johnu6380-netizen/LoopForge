@@ -1,0 +1,74 @@
+{
+  "run_id": "claude-01",
+  "version": "0.4.0",
+  "config": {
+    "strategy": "hill_climb",
+    "proposer": "manual",
+    "budget": 6,
+    "seed": 0,
+    "seed_program": "nearest_neighbor",
+    "tournament_size": 3,
+    "proposer_options": {
+      "site": "Claude",
+      "model": "Sonnet 5.5",
+      "hints": false,
+      "settings": "code execution off, memory off, new chat for every round"
+    },
+    "sizes": [
+      25,
+      50,
+      100
+    ],
+    "per_size": 4,
+    "verify_new_best": true,
+    "limits": {
+      "per_instance_seconds": 10.0,
+      "memory_mb": 512,
+      "max_source_bytes": 100000,
+      "startup_grace_seconds": 5.0
+    }
+  },
+  "seed": {
+    "id": "p0000",
+    "dev_fitness": 1.1524026807290622,
+    "test_fitness": 1.150388660386074
+  },
+  "best": {
+    "id": "p0002",
+    "iteration": 2,
+    "dev_fitness": 0.9705716373348318,
+    "test_fitness": 0.9439828265428228,
+    "lineage": [
+      "p0000",
+      "p0001",
+      "p0002"
+    ],
+    "description": "LLM edit"
+  },
+  "counts": {
+    "proposals": 6,
+    "valid": 6,
+    "invalid": 0,
+    "duplicate": 0,
+    "improvements": 2
+  },
+  "curve": [
+    1.1524026807290622,
+    0.9711396208999318,
+    0.9705716373348318,
+    0.9705716373348318,
+    0.9705716373348318,
+    0.9705716373348318,
+    0.9705716373348318
+  ],
+  "stopped_early": null,
+  "usage": {
+    "llm_calls": 0,
+    "cached_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0.0,
+    "api_seconds": 0.0
+  },
+  "wall_seconds": 0.0
+}
