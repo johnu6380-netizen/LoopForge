@@ -1,0 +1,29 @@
+{
+  "run_id": "dry-run",
+  "version": "0.4.0",
+  "strategy": "hill_climb",
+  "proposer": "manual",
+  "budget": 6,
+  "seed": 0,
+  "seed_program": "nearest_neighbor",
+  "tournament_size": 3,
+  "proposer_options": {
+    "site": "ChatGPT",
+    "model": "GPT-6",
+    "hints": false,
+    "settings": "code execution off, memory off, new chat for every round"
+  },
+  "sizes": [
+    25,
+    50,
+    100
+  ],
+  "per_size": 4,
+  "verify_new_best": true,
+  "limits": {
+    "per_instance_seconds": 10.0,
+    "memory_mb": 512,
+    "max_source_bytes": 100000,
+    "startup_grace_seconds": 5.0
+  }
+}

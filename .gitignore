@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.env
+runs/
+dist/
+build/
+node_modules/
+.DS_Store
+.loopforge_cache/
