@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "gpt-01",
+  "title": "gpt-01",
+  "site": "ChatGPT",
+  "model": "GPT-6",
+  "settings": "code execution off, memory off, new chat for every round",
+  "seed_program": "nearest_neighbor",
+  "hints": false,
+  "max_turns": 6,
+  "time_limit_seconds": 10.0,
+  "notes": "",
+  "loopforge_version": "0.4.0"
+}

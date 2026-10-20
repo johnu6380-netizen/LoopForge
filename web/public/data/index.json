@@ -1,0 +1,52 @@
+{
+ "schema_version": 1,
+ "commit": "5c90203b25a3a77493b5ca998f55816d35f8bf3e",
+ "experiments": [
+  {
+   "id": "gpt-01",
+   "title": "gpt-01",
+   "site": "ChatGPT",
+   "model": "GPT-6",
+   "seed_program": "nearest_neighbor",
+   "hints": false,
+   "proposals": 6,
+   "improvements": 1,
+   "valid": 5,
+   "invalid": 1,
+   "duplicate": 0,
+   "seed_dev": 1.1524026807290622,
+   "best_dev": 0.977214463501943,
+   "seed_test": 1.150388660386074,
+   "best_test": 0.9513471808173168,
+   "blind_mutation": {
+    "runs": 30,
+    "proposals": 9000,
+    "improvements": 0,
+    "source": "docs/RESULTS.md, Experiment 1 (3 strategies x 10 seeds x 300 proposals)"
+   }
+  },
+  {
+   "id": "claude-01",
+   "title": "claude-01",
+   "site": "Claude",
+   "model": "Sonnet 5.5",
+   "seed_program": "nearest_neighbor",
+   "hints": false,
+   "proposals": 6,
+   "improvements": 2,
+   "valid": 6,
+   "invalid": 0,
+   "duplicate": 0,
+   "seed_dev": 1.1524026807290622,
+   "best_dev": 0.9705716373348318,
+   "seed_test": 1.150388660386074,
+   "best_test": 0.9439828265428228,
+   "blind_mutation": {
+    "runs": 30,
+    "proposals": 9000,
+    "improvements": 0,
+    "source": "docs/RESULTS.md, Experiment 1 (3 strategies x 10 seeds x 300 proposals)"
+   }
+  }
+ ]
+}
