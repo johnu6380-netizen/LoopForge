@@ -1,0 +1,10 @@
+figure { margin: var(--space-4) 0; }
+figcaption { color: var(--ink-soft); font-size: var(--text-sm); max-width: var(--measure); margin-top: var(--space-2); }
+.chart { width: 100%; height: auto; max-width: 44rem; display: block; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); }
+.chart text { font-family: var(--font-sans); font-size: 12px; fill: var(--ink-soft); }
+.chart text.axis-title { fill: var(--ink); }
+.legend { list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: var(--space-2) 0 0; padding: 0; font-size: var(--text-sm); }
+.legend li { display: flex; align-items: center; gap: var(--space-2); }
+h3 .swatch { vertical-align: baseline; }
+.plain { max-width: var(--measure); padding-left: 1.2em; }
+.plain li { margin-bottom: var(--space-2); }

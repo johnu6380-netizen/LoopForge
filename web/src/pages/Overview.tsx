@@ -52,8 +52,11 @@ export function Overview() {
             </table>
           </div>
           <p>
-            For comparison, 9,000 blind random edits to the same seed program produced 0 improvements. The dashboard,
-            the turn-by-turn explorer and the methodology are coming in the next stages.
+            For comparison, 9,000 blind random edits to the same seed program produced 0 improvements.
+          </p>
+          <p>
+            <a href="#/results">See the results</a> · <a href="#/explorer/claude-01/0">replay a run turn by turn</a> ·{" "}
+            <a href="#/methods">read the methods and limitations</a>.
           </p>
         </>
       )}

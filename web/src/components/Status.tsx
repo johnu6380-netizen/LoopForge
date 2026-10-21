@@ -1,7 +1,7 @@
-import type { CoreState } from "../data/DataContext";
+type LoadState = { status: "loading" } | { status: "error"; message: string } | { status: "ready" };
 
-// Loading and error states for the core data. Renders nothing once data is ready.
-export function Status({ core }: { core: CoreState }) {
+// Loading and error states. Renders nothing once data is ready.
+export function Status({ core }: { core: LoadState }) {
   if (core.status === "loading") return <p role="status">Loading results…</p>;
   if (core.status === "error")
     return (
