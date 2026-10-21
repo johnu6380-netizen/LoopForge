@@ -1,0 +1,55 @@
+/* Design tokens. Components use these variables only. */
+:root {
+  --bg: #eef1f2;
+  --surface: #f9fafb;
+  --ink: #16202a;
+  --ink-soft: #4d5b68;
+  --rule: #c9d2d8;
+  --code-bg: #e4e9ec;
+
+  /* the two recorded models (used for nothing else) */
+  --model-gpt: #3445b0;
+  --model-claude: #0c7a6f;
+
+  /* candidate status */
+  --ok: #2b7a4b;
+  --bad: #b3261e;
+  --dup: #8a6a00;
+
+  --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.275rem;
+  --text-xl: 1.53rem;
+  --text-3xl: clamp(2.1rem, 4.5vw, 3rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+  --rail: 15rem;
+  --measure: 38rem;
+  --wide: 70rem;
+  --radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11181f;
+    --surface: #18222b;
+    --ink: #e6ecf0;
+    --ink-soft: #9fb0bd;
+    --rule: #2f3d49;
+    --code-bg: #1f2b35;
+    --model-gpt: #8f9cf0;
+    --model-claude: #4cc2b3;
+    --ok: #5cc08a;
+    --bad: #ff8a80;
+    --dup: #e0b84a;
+  }
+}
