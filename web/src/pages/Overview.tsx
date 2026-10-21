@@ -6,7 +6,7 @@ export function Overview() {
   const core = useCore();
   return (
     <>
-      <h1>Can a language model improve a routing heuristic?</h1>
+      <h1>Can a Language Model Improve a Routing Heuristic?</h1>
       <p className="lede">
         Loopforge asks GPT and Claude to rewrite Python code that solves the Traveling Salesman Problem, runs every
         answer in a sandbox, and scores it against a 2-opt reference. Every prompt, reply, program and score is kept.
